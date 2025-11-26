@@ -7,14 +7,14 @@ public class App {
 
         
         // Variante 1
-        // for (int i = 0; i < 12; i++) {
-        //     output(player.play());  
-        // }
+        for (int i = 0; i < 12; i++) {
+            output(player.play());  
+        }
 
         // Variante 2
-        while (player.points < 13) {
-            output(player.play()); 
-        }
+        // while (player.points < 13) {
+        //     output(player.play()); 
+        // }
 
 
        
